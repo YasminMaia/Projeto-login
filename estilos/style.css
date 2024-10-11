@@ -1,7 +1,44 @@
 @charset "UTF-8";
 
-/*
-Paleta de cores
-verde: #49a09d
-lilás: #5f2c82
-*/
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: gray;
+  height: 100vh;
+  width: 100vw;
+}
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+section#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  background-color: white;
+  width: 250px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0, 450);
+}
+section#login > div#imagem {
+  display: block;
+  background: gray url(../imagens/ferragens.jpg) no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  height: 200px;
+}
+section#login > div#formulario {
+  padding: 10px;
+  display: block;
+}
