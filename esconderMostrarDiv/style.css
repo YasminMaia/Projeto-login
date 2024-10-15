@@ -1,0 +1,54 @@
+div {
+  width: 300px;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.divAlunoSync {
+  text-align: center;
+  border: white;
+  border-radius: 1px;
+}
+
+.divSignIn {
+  text-align: center;
+  width: 250px;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 17px;
+  margin-left: 70px;
+}
+
+input {
+  border: 1px solid black;
+}
+input:focus {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+#div-de-fundo {
+  background-color: rgb(208, 201, 201);
+  width: 50%;
+}
+
+.divLogo {
+  width: 200px;
+  height: 55px;
+  border: white;
+  border-radius: 1px;
+}
+
+.invisivel {
+  display: none;
+}

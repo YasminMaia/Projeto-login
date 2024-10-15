@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="div-de-fundo">
+      <div class="divLogo"></div>
+      <br />
+      <br />
+      <div class="divAlunoSync">
+        <span>Acesso AlunoSync</span>
+      </div>
+      <br />
+      <br />
+      <div>
+        <span>Aluno / Professor</span>
+        <img
+          onclick="esconderOuMostrarDivProfessorAluno()"
+          src="./setaParaBaixo.png"
+          alt=""
+        />
+      </div>
+      <div id="divLoginAlunoEProfessor">
+        <label for="nome">Nome: </label>
+        <input id="nomeAlunoProfessor" type="text" />
+        <br />
+        <br />
+
+        <label for="senha">Senha: </label>
+        <input id="senhaAlunoProfessor" type="password" />
+        <br />
+        <br />
+        <div class="divSignIn">
+          <label for="signIn"> Sign In </label>
+        </div>
+      </div>
+      <div>
+        <span>Assistente Administrativo</span>
+        <img
+          onclick="esconderOuMostrarDivAssistenteAdm()"
+          src="./setaParaBaixo.png"
+          alt=""
+        />
+      </div>
+      <div id="divLoginAssistenteAdm">
+        <label for="nome">Nome: </label>
+        <input id="nomeAssistenteAdm" type="text" />
+        <br />
+        <br />
+        <label for="senha">Senha: </label>
+        <input id="senhaAssistente" type="password" />
+      </div>
+
+      <div>
+        <span>Proprietário</span>
+        <img
+          onclick="esconderOuMostrarDivProprietario()"
+          src="./setaParaBaixo.png"
+          alt=""
+        />
+      </div>
+      <div id="divLoginProprietario">
+        <label for="nome">Nome: </label>
+        <input id="nomeProprietario" type="text" />
+        <br />
+        <br />
+        <label for="senha">Senha: </label>
+        <input id="senhaProprietario" type="password" />
+      </div>
+    </div>
+  </body>
+</html>
